@@ -8,11 +8,14 @@ public class Son extends  Papa{
         super(name, age, hobbi, profession);
         this.name = name1;
     }
+    void son(){
+        System.out.println("           (..He plan to be in future programmer..)");
+    }
 
     @Override
     public String toString() {
 
-            return " name  "+name+"age  "+age+"Hobbi  "+Hobbi+"profession  "+Profession+"name  "+name;
+            return "{  SON }.."+".."+name+"..age  .."+age+"..Hobbi . ."+Hobbi+"..profession . .."+Profession+"..name .. "+name;
 
 
 

@@ -7,9 +7,12 @@ public class Vnuk extends Papa {
         super(name, age, hobbi, profession);
         this.name = name1;
     }
+    void vnuk(){
+        System.out.println("       (.. garndson  every dey liking play in maincraft..)");
+    }
 
     @Override
     public String toString(){
-        return " name  "+name+" age "+age+"hobbi "+Hobbi+"profession  "+Profession+"name  "+name;
+        return "{ VNUK }.."+".. name..  "+name+"..age.. "+age+"..hobbi.. "+Hobbi+"..profession .. "+Profession+"..name..  "+name;
     }
 }
